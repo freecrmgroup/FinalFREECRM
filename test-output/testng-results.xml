@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-21T15:59:54Z" name="BDD Test Suite" finished-at="2020-12-21T16:10:00Z" duration-ms="605865">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunTestAddingNewContacts.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:AddingNewContacts.RunTestAddingNewContacts@1018bde2]" name="feature" class="AddingNewContacts.RunTestAddingNewContacts"/>
+        <method signature="RunTestAddingNewTask.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:AddingNewTask.RunTestAddingNewTask@f2ff811]" name="feature" class="AddingNewTask.RunTestAddingNewTask"/>
+        <method signature="RunTestLogin.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Login.RunTestLogin@60015ef5]" name="feature" class="Login.RunTestLogin"/>
+        <method signature="RunTestRegistration.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Registration.RunTestRegistration@2f54a33d]" name="feature" class="Registration.RunTestRegistration"/>
+        <method signature="RunTestSocialMediaHyperlink.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:SocialMediaHyperlink.RunTestSocialMediaHyperlink@65b3f4a4]" name="feature" class="SocialMediaHyperlink.RunTestSocialMediaHyperlink"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-12-21T15:59:54Z" name="Login and Update Profile Test" finished-at="2020-12-21T16:10:00Z" duration-ms="605865">
+      <class name="Registration.RunTestRegistration">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Registration.RunTestRegistration@2f54a33d]" started-at="2020-12-21T21:31:28Z" name="setUpClass" finished-at="2020-12-21T21:31:28Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Registration.RunTestRegistration@2f54a33d]" started-at="2020-12-21T21:31:29Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-12-21T21:32:09Z" duration-ms="40128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[registration]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Registration.RunTestRegistration@2f54a33d]" started-at="2020-12-21T21:32:09Z" name="tearDownClass" finished-at="2020-12-21T21:32:09Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Registration.RunTestRegistration -->
+      <class name="Login.RunTestLogin">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Login.RunTestLogin@60015ef5]" started-at="2020-12-21T21:29:54Z" name="setUpClass" finished-at="2020-12-21T21:29:55Z" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Login.RunTestLogin@60015ef5]" started-at="2020-12-21T21:29:55Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-12-21T21:31:28Z" duration-ms="93813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Login.RunTestLogin@60015ef5]" started-at="2020-12-21T21:31:28Z" name="tearDownClass" finished-at="2020-12-21T21:31:28Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Login.RunTestLogin -->
+      <class name="AddingNewContacts.RunTestAddingNewContacts">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:AddingNewContacts.RunTestAddingNewContacts@1018bde2]" started-at="2020-12-21T21:32:09Z" name="setUpClass" finished-at="2020-12-21T21:32:09Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:AddingNewContacts.RunTestAddingNewContacts@1018bde2]" started-at="2020-12-21T21:32:09Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-12-21T21:33:10Z" duration-ms="60813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AddingNewContacts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:AddingNewContacts.RunTestAddingNewContacts@1018bde2]" started-at="2020-12-21T21:33:10Z" name="tearDownClass" finished-at="2020-12-21T21:33:10Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- AddingNewContacts.RunTestAddingNewContacts -->
+      <class name="SocialMediaHyperlink.RunTestSocialMediaHyperlink">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:SocialMediaHyperlink.RunTestSocialMediaHyperlink@65b3f4a4]" started-at="2020-12-21T21:33:10Z" name="setUpClass" finished-at="2020-12-21T21:33:10Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:SocialMediaHyperlink.RunTestSocialMediaHyperlink@65b3f4a4]" started-at="2020-12-21T21:33:10Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-12-21T21:36:14Z" duration-ms="184045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SocialMediaHyperlink]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:SocialMediaHyperlink.RunTestSocialMediaHyperlink@65b3f4a4]" started-at="2020-12-21T21:36:14Z" name="tearDownClass" finished-at="2020-12-21T21:36:14Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- SocialMediaHyperlink.RunTestSocialMediaHyperlink -->
+      <class name="AddingNewTask.RunTestAddingNewTask">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:AddingNewTask.RunTestAddingNewTask@f2ff811]" started-at="2020-12-21T21:36:14Z" name="setUpClass" finished-at="2020-12-21T21:36:14Z" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:AddingNewTask.RunTestAddingNewTask@f2ff811]" started-at="2020-12-21T21:36:14Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-12-21T21:40:00Z" duration-ms="225950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Addingnewtask]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:AddingNewTask.RunTestAddingNewTask@f2ff811]" started-at="2020-12-21T21:40:00Z" name="tearDownClass" finished-at="2020-12-21T21:40:00Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- AddingNewTask.RunTestAddingNewTask -->
+    </test> <!-- Login and Update Profile Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" thread-count="1" parallel="tests" name="Failed suite [BDD Test Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="tests" name="Login and Update Profile Test(failed)">
+    <classes>
+      <class name="AddingNewContacts.RunTestAddingNewContacts">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- AddingNewContacts.RunTestAddingNewContacts -->
+      <class name="SocialMediaHyperlink.RunTestSocialMediaHyperlink">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- SocialMediaHyperlink.RunTestSocialMediaHyperlink -->
+    </classes>
+  </test> <!-- Login and Update Profile Test(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->
